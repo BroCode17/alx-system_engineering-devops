@@ -1,0 +1,3 @@
+#!/bin/bash
+touch /tmp/iamafile
+find -iname "*.html" -exec cp {} ..
